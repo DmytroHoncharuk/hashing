@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace hashing
+﻿namespace hashing
 {
 
     internal class Program
@@ -67,7 +58,7 @@ namespace hashing
 
             Console.WriteLine("Перше слово за алфавітом: " + table_1.Max());
         }
-        private static  void task2()
+        private static void task2()
         {
             Console.WriteLine("\nЗавдання 2\n");
             int n = DirectAddressTable.GetCount();
@@ -78,11 +69,8 @@ namespace hashing
                 Console.WriteLine("Виберіть пункт меню:\n1 - Вставити\n2 - Видалити\n3 - Пошук ");
                 int punct = int.Parse(Console.ReadLine());
                 switch (punct)
-                {                   
+                {
                     case 1:
-                        //Console.Write("Вставити значення : ");
-                        //int value = int.Parse(Console.ReadLine());
-                        //d.Insert(value);
                         for (int i = 1; i < 8; i++)
                             d.Insert(i);
                         break;
@@ -127,5 +115,5 @@ namespace hashing
         }
 
     }
-   
+
 }

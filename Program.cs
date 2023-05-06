@@ -119,11 +119,11 @@ namespace hashing
         {
             Console.WriteLine("\nЗавдання 3:\n");
             int N = 1000;
-            Console.WriteLine("Ключ 5: " + DirectAddressTable.HashFunct(61, N));
-            Console.WriteLine("Ключ 6: " + DirectAddressTable.HashFunct(62, N));
-            Console.WriteLine("Ключ 7: " + DirectAddressTable.HashFunct(63, N));
-            Console.WriteLine("Ключ 8: " + DirectAddressTable.HashFunct(64, N));
-            Console.WriteLine("Ключ 20: " + DirectAddressTable.HashFunct(65, N));
+            Console.WriteLine("Ключ 61: " + DirectAddressTable.HashFunct(61, N));
+            Console.WriteLine("Ключ 62: " + DirectAddressTable.HashFunct(62, N));
+            Console.WriteLine("Ключ 63: " + DirectAddressTable.HashFunct(63, N));
+            Console.WriteLine("Ключ 64: " + DirectAddressTable.HashFunct(64, N));
+            Console.WriteLine("Ключ 65: " + DirectAddressTable.HashFunct(65, N));
         }
 
     }
